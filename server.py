@@ -10,7 +10,7 @@ tokenizer = AutoTokenizer.from_pretrained(
     MODEL_PATH,
     trust_remote_code=True
 )
-
+#git status
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_PATH,
     torch_dtype="auto",
